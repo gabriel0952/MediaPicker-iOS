@@ -14,4 +14,4 @@ With:
 
 畫面預覽(Preview)：
 
-<img src="app/ScreenShot/SimulatorScreenShot-2021-02-22.png" width="750"/>
+<img src="/MediaPicker/Assets.xcassets/SimulatorScreenShot-2021-02-22.png" width="750"/>
