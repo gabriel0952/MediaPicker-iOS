@@ -15,6 +15,11 @@
 		4BC7C30D25E3E2E1001535DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7C30B25E3E2E1001535DB /* LaunchScreen.storyboard */; };
 		4BC7C31825E3E2E1001535DB /* MediaPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7C31725E3E2E1001535DB /* MediaPickerTests.swift */; };
 		4BC7C32325E3E2E1001535DB /* MediaPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7C32225E3E2E1001535DB /* MediaPickerUITests.swift */; };
+		4BC7C33E25E3E379001535DB /* MediaSelecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7C33525E3E379001535DB /* MediaSelecting.swift */; };
+		4BC7C33F25E3E379001535DB /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7C33625E3E379001535DB /* SampleViewController.swift */; };
+		4BC7C34325E3E379001535DB /* MediaSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7C33A25E3E379001535DB /* MediaSelectViewController.swift */; };
+		4BC7C34525E3E379001535DB /* MediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7C33C25E3E379001535DB /* MediaCollectionViewCell.swift */; };
+		4BC7C34A25E3E407001535DB /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7C34925E3E407001535DB /* UIUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		4BC7C31E25E3E2E1001535DB /* MediaPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC7C32225E3E2E1001535DB /* MediaPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPickerUITests.swift; sourceTree = "<group>"; };
 		4BC7C32425E3E2E1001535DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC7C33525E3E379001535DB /* MediaSelecting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaSelecting.swift; sourceTree = "<group>"; };
+		4BC7C33625E3E379001535DB /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		4BC7C33A25E3E379001535DB /* MediaSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaSelectViewController.swift; sourceTree = "<group>"; };
+		4BC7C33C25E3E379001535DB /* MediaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		4BC7C34925E3E407001535DB /* UIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,10 @@
 		4BC7C2FF25E3E2DE001535DB /* MediaPicker */ = {
 			isa = PBXGroup;
 			children = (
+				4BC7C33525E3E379001535DB /* MediaSelecting.swift */,
+				4BC7C33625E3E379001535DB /* SampleViewController.swift */,
+				4BC7C33A25E3E379001535DB /* MediaSelectViewController.swift */,
+				4BC7C33C25E3E379001535DB /* MediaCollectionViewCell.swift */,
 				4BC7C30025E3E2DE001535DB /* AppDelegate.swift */,
 				4BC7C30225E3E2DE001535DB /* SceneDelegate.swift */,
 				4BC7C30425E3E2DE001535DB /* ViewController.swift */,
@@ -106,6 +120,7 @@
 				4BC7C30925E3E2E1001535DB /* Assets.xcassets */,
 				4BC7C30B25E3E2E1001535DB /* LaunchScreen.storyboard */,
 				4BC7C30E25E3E2E1001535DB /* Info.plist */,
+				4BC7C34925E3E407001535DB /* UIUtil.swift */,
 			);
 			path = MediaPicker;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BC7C30525E3E2DE001535DB /* ViewController.swift in Sources */,
+				4BC7C33F25E3E379001535DB /* SampleViewController.swift in Sources */,
+				4BC7C34325E3E379001535DB /* MediaSelectViewController.swift in Sources */,
+				4BC7C34525E3E379001535DB /* MediaCollectionViewCell.swift in Sources */,
 				4BC7C30125E3E2DE001535DB /* AppDelegate.swift in Sources */,
 				4BC7C30325E3E2DE001535DB /* SceneDelegate.swift in Sources */,
+				4BC7C34A25E3E407001535DB /* UIUtil.swift in Sources */,
+				4BC7C33E25E3E379001535DB /* MediaSelecting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
